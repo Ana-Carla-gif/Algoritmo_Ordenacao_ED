@@ -1,7 +1,6 @@
 #ifndef ALGORITMOS_H
 #define ALGORITMOS_H
 
-// Declarações das funções de ordenação
 void bubble_sort(int *arr, int n);
 void selection_sort(int *arr, int n);
 void insertion_sort(int *arr, int n);
