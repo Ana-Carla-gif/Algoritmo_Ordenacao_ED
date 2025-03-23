@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "gerar_dados.h"
 
 void gerar_dados(int **dados, int *tamanhos, int num_tamanhos) {
     srand(time(NULL));

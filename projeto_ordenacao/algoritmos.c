@@ -109,6 +109,7 @@ void quick_sort(int *arr, int low, int high) {
         quick_sort(arr, pi + 1, high);
     }
 }
+
 void counting_sort(int *arr, int n) {
     int max = arr[0];
     for (int i = 1; i < n; i++) {
