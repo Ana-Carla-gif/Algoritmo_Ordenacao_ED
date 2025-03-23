@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 #include "algoritmos.h"
+#include "gerar_dados.h"
 
 int tamanhos[] = {100, 500, 1000, 5000, 30000, 80000, 100000, 150000, 200000};
 int num_tamanhos = sizeof(tamanhos) / sizeof(tamanhos[0]);
